@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,300;1,300&display=swap');
+
+body{
+    font-family: 'Poppins';
+}
+.slider{
+
+    background: url(../images/client/banner.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:cover;
+    width: 1440px;
+    height: 584px;
+    position: relative;
+    
+
+}
+.para{
+    position: absolute;
+    
+    top:50%;
+    left:25%;
+    right:25%;
+    bottom:0%;
+    text-align: center;
+}
+.company{
+    position:relative;
+    height:350px;
+    width:300px;
+}
+.client{
+    position:absolute;
+    top:40%;
+    left:30%;
+    bottom:0%;
+    text-align:center;
+}
+.paragraph{
+    text-align: justify;
+}
